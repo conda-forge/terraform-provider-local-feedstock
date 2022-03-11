@@ -1,12 +1,12 @@
 {% set provider = "Local" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 {% set name = goname.split('/')[-1] %}
 
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "163ba3522fbb29332c2bba2d7f14bbb140376ae106e6c11d97da8095db34c414" %}
+{% set sha256 = "540a708c6c67110f7822a1c0605a7af9a673105e9126048f41910fdcd8f4f483" %}
 
 package:
   name: {{ name|lower }}
